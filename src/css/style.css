@@ -77,13 +77,20 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: calc(100% - 1.5rem);
-    /* margin: 0 auto; */
+    width: 75%;
+    margin: 0 auto;
+  }
+  .container-content h1 {
+    text-align: center;
+    margin: 0 1rem;
+  }
+  .container-content .description {
+    margin: 0 1rem;
+    text-align: center;
   }
   .container-content {
     width: auto;
-    margin: 5.1rem auto;
+    margin: 2.1rem auto;
     text-align: center;
   }
   .container-content h1 {
@@ -100,9 +107,13 @@ body {
   }
   .data-container .card-data {
     padding-top: 1rem;
+    text-align: center;
   }
   .container-img .img-desktop {
     display: none;
+  }
+  .container-img {
+    border-radius: 0.7rem 0.7rem 0 0;
   }
   .container-img .img-mobile {
     display: block;
@@ -110,5 +121,6 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 0.7rem 0.7rem 0 0;
+    mix-blend-mode: multiply;
   }
 }
